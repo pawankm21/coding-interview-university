@@ -39,11 +39,47 @@
 - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
-- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
 - [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
 - [Japanese (日本語)](https://github.com/jwasham/coding-interview-university/issues/257)
 
 </details>
+
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <p>
+        <strong>Special thanks to:</strong>
+    </p>
+    <p>
+        <a href="https://oss.capital/">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
+            </div>
+            <div>
+                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
+            </div>
+        </a>
+    </p>
+    <br />
+    <p>
+        <a href="https://www.gitpod.io/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">
+            <div>
+                <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/gitpod-logo-light-theme.svg" width="300" alt="Gitpod">
+            </div>
+            <div>
+                <p>
+                    <strong>Dev environments built for the cloud</strong>
+                </p>
+            </div>
+            <div>
+                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
+            </div>
+        </a>
+    </p>
+    <hr />
+</div>
 
 ## What is it?
 
@@ -195,6 +231,8 @@
 
     Fork一個branch，並且跟隨以下的指令
 
+`git clone git@github.com:<your_github_username>/coding-interview-university.git`
+
 `git checkout -b progress`
 
 `git remote add jwasham https://github.com/jwasham/coding-interview-university`
@@ -208,6 +246,8 @@
 `git commit -m "Marked x"`
 
 `git rebase jwasham/main`
+
+`git push --set-upstream origin progress`
 
 `git push --force`
 
@@ -844,7 +884,7 @@
     - 什麼時候適合用這些
     - tail recursion沒有比較好?
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (影片)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Tail Recursion (影片)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### 動態規劃
     - 在你的面試中或許沒有任何動態規劃的問題，但能夠知道一個題目可以使用動態規劃來解決是很重要的。
@@ -1227,8 +1267,8 @@
 - [Mathematics for Topcoders](https://www.topcoder.com/community/competitive-programming/tutorials/mathematics-for-topcoders/)
 - [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Exercises for getting better at a given language](http://exercism.io/languages)
   
+
 **閱讀並解題(按照以下順序):**
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](https://www.wiley.com/en-us/Programming+Interviews+Exposed%3A+Secrets+to+Landing+Your+Next+Job%2C+2nd+Edition-p-9780470121672)
@@ -1271,7 +1311,7 @@ Coding面試題目影片:
 - [Python互動式coding面試解題](https://github.com/donnemartin/interactive-coding-challenges)
 
 更多面試:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - I used this and it helped me relax for the phone screen and on-site interview.
+- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - I used this and it helped me relax for the phone screen and on-site interview.
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - 點對點面試練習
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - 同樣能藉由跳過跟多家科技公司的面試，幫助你快速步上軌道，
 
@@ -1312,12 +1352,12 @@ Coding面試題目影片:
 
     *****************************************************************************************************
     *****************************************************************************************************
-
+    
     下面的東西都是額外的。
     讀這些東西，可以更了解電腦科學的概念，
     並且能讓自己對任何軟體工程的工作做更好的準備。
     如此一來，你將會成為一個更全面的軟體工程師。
-
+    
     *****************************************************************************************************
     *****************************************************************************************************
 
@@ -1383,7 +1423,7 @@ Coding面試題目影片:
     - 前幾章提供了一些解決coding問題的精妙絕倫的方法(有些很舊，甚至還用磁帶)，但那些只是導論。這是本程式設計和架構的指南。
 
 ## 額外學習
-    
+
     我把他們加了進來為了讓你成為更全方位的軟體工程師，並且留意一些科技以及演算法，讓你的資料庫中有更多素材。
 
 - ### 編譯器
@@ -1583,7 +1623,7 @@ Coding面試題目影片:
         - [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (影片)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [Aduni - Algorithms - Lecture 5 (影片)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-        - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/competitive-programming/tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
 
     - **2-3搜尋樹**
         - 實際上:
@@ -1834,7 +1874,7 @@ Coding面試題目影片:
 
 - [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [Stanford: Programming Paradigms (27部影片)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [Stanford: Programming Paradigms (27部影片)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)
